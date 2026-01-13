@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* 2026 v4 Dark Mode Setup */
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  @apply transition-colors duration-300; /* Smooth theme transition */
+}
